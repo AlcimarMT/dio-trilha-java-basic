@@ -1,0 +1,46 @@
+{
+  "id": 1,
+  "nomeEmpresa": "MyCompany",
+  "setores": [
+    {
+      "id": 1,
+      "nomeSetor": "HR",
+      "equipe": {
+        "id": 1,
+        "funcao": "Management",
+        "membros": [
+          {
+            "id": 1,
+            "nome": "John Doe",
+            "dataNascimento": "1990-05-15",
+            "profissao": "Manager"
+          }
+        ]
+      }
+    }
+  ],
+  "clientesPJ": [
+    {
+      "id": 1,
+      "nomeCliente": "ClientCorp",
+      "consumoMensalMedio": 5000.0,
+      "contato": "clientcorp@example.com",
+      "filiais": [
+        {
+          "id": 1,
+          "nomeCliente": "ClientCorp Branch 1",
+          "consumoMensalMedio": 1500.0,
+          "contato": "branch1@example.com"
+        }
+      ]
+    }
+  ],
+  "clientesPF": [
+    {
+      "id": 1,
+      "nomeCliente": "John Smith",
+      "consumoMensalMedio": 200.0,
+      "contato": "john.smith@example.com"
+    }
+  ]
+}
